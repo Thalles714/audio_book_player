@@ -37,9 +37,6 @@ A proposta é criar uma interface simples e funcional que permita **reproduzir, 
    ```
 2. Abra o arquivo `index.html` diretamente no navegador.
 
-## 📸 Preview
-*(Adicione aqui uma captura de tela do player quando disponível)*
-
 ## 🧠 Aprendizados
 Durante o desenvolvimento deste projeto, foi possível reforçar:
 - Manipulação de elementos de áudio via JavaScript  
