@@ -27,3 +27,7 @@ Abra [localhost:8000](http://localhost:8000). Requer Python apenas para servir o
 - `images/`: capa do livro.
 
 A presença dos áudios neste exercício não atribui licença ou autoria ao desenvolvedor; os direitos da gravação devem ser verificados antes de redistribuí-la.
+
+## Verificação
+
+Com Node.js 20 ou superior: `node --test tests/player.test.cjs`. Os testes simulam o elemento de áudio; a reprodução real depende do navegador e dos arquivos de mídia.

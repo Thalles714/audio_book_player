@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +10,19 @@
 </head>
 <body>
     <div class="container-aplicativo">
-        <img id='capa' alt="Capa do livro." src="./images/dom-casmurro.jpeg"></img>
-        <audio id='audio-capitulo' src="/books/dom-casmurro/1.mp3"></audio>
+        <img id='capa' alt="Capa do livro." src="./images/dom-casmurro.jpeg">
+        <audio id='audio-capitulo' preload="metadata" src="./books/dom-casmurro/1.mp3"></audio>
         <div id="informacoes-faixa">
             <div id="capitulo">Capítulo 1</div>
             <div id="nome-autor">Machado de Assis</div>
         </div>
         <div id="container-botoes">
-            <button id="anterior" class="bi bi-skip-start-fill"></button>
-            <button id="play-pause" class="bi bi-play-circle-fill"></button>
-            <button id="proximo" class="bi bi-skip-end-fill"></button>
+            <button type="button" aria-label="Capítulo anterior" id="anterior" class="bi bi-skip-start-fill"></button>
+            <button type="button" aria-label="Reproduzir" id="play-pause" class="bi bi-play-circle-fill"></button>
+            <button type="button" aria-label="Próximo capítulo" id="proximo" class="bi bi-skip-end-fill"></button>
         </div>
     </div>
+    <p id="status-audio" role="status" aria-live="polite"></p>
     <script src="./script.js"></script>
 </body>
 </html>
